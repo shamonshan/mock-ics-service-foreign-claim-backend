@@ -40,7 +40,7 @@ spec:
           livenessProbe:
             httpGet:
               path: /
-              port: 8547
+              port: 8323
           readinessProbe:
             httpGet:
               path: /
